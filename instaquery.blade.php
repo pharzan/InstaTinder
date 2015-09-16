@@ -8,8 +8,8 @@ $result = array();
 $image = array();
 $NumberOfInstaPosts = 19;
 $instagram = new Instagram(array(
-        'apiKey' => '263fd9c7bed64263854c344f91fd7ec6',
-        'apiSecret' => 'd1d1b18178a84c7a964e7bb5e155bc4d',
+        'apiKey' => 'API KEY',
+        'apiSecret' => 'API SECRET',
         'apiCallback' => 'http://www.pharzan.com/insta_success_callback.php' // must point to success.php
 ));
 if (isset($_GET['type'])) {
